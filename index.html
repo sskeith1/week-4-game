@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Crystal Collector</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href=assets/css/reset.css>
 	<link rel="stylesheet" type="text/css" href=assets/css/style.css>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,16 +38,21 @@
 <br />
 
 <!--randNum-->
+<div class="container">
 	<div class="row">
 	 	<div class="col-lg-3">
-			<div class=numbox></div>
-		</div>
+			<div class=guessbox></div>
+		</div> <br />
 		<div class="col-lg-1">
 			<div class=winloss>
-				Wins: 
-		<p></p><br />
-				Losses:
-		<p></p><br />
+				<div id=win>
+					Wins: 
+				</div>
+			<p></p><br />
+				<div id=loss>
+					Losses:
+				</div>
+			<p></p><br />
 			</div>
 		</div>
 	</div>
@@ -80,7 +86,7 @@
 			</div>
 		</div>
 	</div>
-
+</div>
 	<script src="assets/javascript/game.js"></script>
 </body>
 </html>

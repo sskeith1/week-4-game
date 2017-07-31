@@ -19,6 +19,16 @@ body {
 	width: 35%;
 }
 
+.guessbox {
+	padding: 32px;
+	background: white;
+	width: 300px;
+	font-size: 28px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
 .numbox {
 	padding: 32px;
 	background: white;
@@ -27,11 +37,18 @@ body {
 }
 
 .winloss {
+	display: inline-block;
+	float: left;
 	position: relative;
 	padding: 10px;
 	background: green;
 	width: 150px;
 	font-size: 22px;
+}
+
+.gems {
+	display: inline-block;
+	float: middle;
 }
 
 .styledimg {
