@@ -1,0 +1,40 @@
+body {
+	background: #00ccff;
+	padding: 20px;
+}
+
+#header {
+	border: 20px;
+	font-weight: bold;
+	font-size: 42px;
+	background: orange;
+	width: auto;
+	text-align: center;
+}
+
+#instructions {
+	border: 20px;
+	font-size: 26px;
+	background: #ffff66;
+	width: 35%;
+}
+
+.numbox {
+	padding: 32px;
+	background: white;
+	width: 300px;
+	font-size: 28px;
+}
+
+.winloss {
+	position: relative;
+	padding: 10px;
+	background: green;
+	width: 150px;
+	font-size: 22px;
+}
+
+.styledimg {
+	width: 100px;
+	padding: 2px;
+}
