@@ -19,7 +19,7 @@ body {
 	width: 35%;
 }
 
-.guessbox {
+#guessbox {
 	padding: 32px;
 	background: white;
 	width: 300px;
@@ -29,11 +29,12 @@ body {
 }
 
 
-.numbox {
+#numbox {
 	padding: 32px;
 	background: white;
 	width: 300px;
 	font-size: 28px;
+	background: white;
 }
 
 .winloss {
@@ -46,7 +47,7 @@ body {
 	font-size: 22px;
 }
 
-.gems {
+.jems {
 	display: inline-block;
 	float: middle;
 }
